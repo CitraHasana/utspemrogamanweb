@@ -1,128 +1,38 @@
-html,
-  body {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
-  }
-  nav {
-    display: flex;
-    background-color: #E72569;
-  }
-  nav ul {
-    display: flex;
-    margin-left: auto;
-  }
-  nav ul li {
-    margin-inline: 15px;
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50;
     color: white;
-    font-weight: bold;
-  }
+    padding: 20px;
+}
 
-  h1 {
-    font-size: 35pt;
-    margin-bottom: 0px;
-  }
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
 
-  section {
-    padding-inline: 50px;
-  }
+section {
+    margin: 20px;
+}
 
-  h3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0px;
-    font-size: 22pt;
-  }
-  hr {
-    margin-bottom: 50px;
-    width: 20%;
-  }
+h2 {
+    color: #4CAF50;
+}
 
-  .info {
-    margin-block: 80px;
-    padding-inline: 200px;
-  }
-
-  .skil {
-
-    margin-block: 80px;
-  }
-
-  .pendidikan {
-
-    margin-block: 80px;
-  }
-
-  .sertifikat {
-    border: solid black 1px;
-    margin-block: 80px;
-  }
-  .kontak {
-    border: solid black 1px;
-    margin-block: 80px;
-  }
-
-  .col {
-    display: flex;
-  }
-  .col-img {
-    margin-right: 100px;
-    display: flex;
-  }
-  .col-desc .title{
-    font-weight: bold;
-    font-size: 18pt;
-    margin-bottom: 20px;
-  }
-
-  .box {
-    width: 210px;
-    height: 270px;
-    background-color: #E72569;
-    position: absolute;
-    transform: rotate(10deg);
-    z-index: -10;
-  }
-
-  img {
-    width: 210px;
-    height: 270px;
-  }  
-
-  .head {
-    padding: 80px;
-  }
-
-  .head p{
-    font-size: 16pt;
-    margin: 5px;
-  }
-
-  .wave {
-    position: absolute;
-    opacity: 0.4;
-    position: absolute;
-    right: 18%;
-    background: #0af;
-    width: 180px; /* Sesuaikan lebar dengan tampilan mobile */
-    height: 180px; /* Sesuaikan tinggi dengan tampilan mobile */
-    transform-origin: 100% 0; /* Mengubah titik transform origin ke pojok kanan atas */
-    border-radius: 50%; /* Menggunakan nilai 50% agar menjadi lingkaran */
-    animation: drift 7000ms infinite linear;
-  }
-  .skil-box{
-    display: flex;
-    justify-content: center;
-  }
-  .skil-box-list{
-    border: solid black 1px;
-    border-radius: 5px;
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
     padding: 10px;
-    margin-left: 5px;
-  }
-
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
